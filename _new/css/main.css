@@ -1,0 +1,394 @@
+/* line 1, ../scss/_header_footer.scss */
+.navbar-default {
+  background: none;
+}
+/* line 3, ../scss/_header_footer.scss */
+.navbar-default .navbar-collapse {
+  border-top: 1px solid #e7e7e7;
+  box-shadow: 0px 2px 5px 0px rgba(102, 102, 102, 0.06);
+  background: white;
+}
+/* line 7, ../scss/_header_footer.scss */
+.navbar-default .navbar-collapse a {
+  line-height: 60px;
+  color: #111!important;
+  font-family: Nobel,sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  padding: 0 15px;
+  text-transform: uppercase;
+}
+/* line 16, ../scss/_header_footer.scss */
+.navbar-default .navbar-collapse a:hover {
+  color: #C00000!important;
+}
+/* line 20, ../scss/_header_footer.scss */
+.navbar-default .navbar-collapse .follow {
+  color: #666!important;
+  font-family: "adobe-caslon-pro",serif;
+  font-size: 14px;
+  letter-spacing: normal;
+  font-style: italic;
+  text-transform: capitalize;
+  padding-right: 30px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  height: 60px;
+  padding-top: 2px;
+  font-weight: 400;
+}
+/* line 34, ../scss/_header_footer.scss */
+.navbar-default .navbar-collapse #search {
+  border-left: 1px solid #e7e7e7;
+}
+
+/* line 39, ../scss/_header_footer.scss */
+.navbar-header {
+  padding: 30px 0 20px 0;
+}
+/* line 41, ../scss/_header_footer.scss */
+.navbar-header #cover {
+  width: 30%;
+  float: left;
+  margin-right: 20px;
+}
+/* line 46, ../scss/_header_footer.scss */
+.navbar-header .subscribe {
+  position: absolute;
+  z-index: -1;
+  top: 40px;
+}
+/* line 51, ../scss/_header_footer.scss */
+.navbar-header .subscribe .info p {
+  font-family: "adobe-caslon-pro",serif;
+  font-size: 12px;
+  line-height: 5px;
+  letter-spacing: normal;
+  color: #666;
+  white-space: pre-line;
+  display: block;
+  text-transform: none;
+}
+/* line 61, ../scss/_header_footer.scss */
+.navbar-header .subscribe .info a {
+  font-family: Nobel,sans-serif;
+  font-size: 10px;
+  line-height: 10px;
+  font-size: 10px;
+  padding: 4px;
+  margin-top: 10px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border: 1px solid #C00000;
+  color: #C00000;
+}
+/* line 72, ../scss/_header_footer.scss */
+.navbar-header .subscribe .info a:hover {
+  background: #C00000;
+  color: white;
+}
+
+/* line 83, ../scss/_header_footer.scss */
+.sticky {
+  position: fixed;
+  top: 0;
+}
+
+/* line 87, ../scss/_header_footer.scss */
+#navbar {
+  z-index: 1111;
+  width: 100%;
+}
+
+/* line 91, ../scss/_header_footer.scss */
+#logoSm {
+  display: none;
+}
+
+/* line 94, ../scss/_header_footer.scss */
+#vogue-logo {
+  padding: 30px 0 20px;
+}
+
+/* line 1, ../scss/_global.scss */
+img {
+  max-width: 100%;
+}
+
+/* line 4, ../scss/_global.scss */
+.nopadding {
+  padding: 0!important;
+}
+
+/* line 7, ../scss/_global.scss */
+h1 {
+  font-size: 25px;
+  text-align: center;
+  color: #111;
+  font-family: "ITC Caslon",Georgia,serif;
+  font-weight: 400;
+  line-height: 1.1em;
+  letter-spacing: -0.01em;
+  -webkit-font-variant-ligatures: common-ligatures;
+  font-variant-ligatures: common-ligatures;
+  line-height: 1.2em;
+  margin: 0;
+}
+
+/* line 21, ../scss/_global.scss */
+h4 {
+  font-size: 25px;
+  font-family: Nobel,sans-serif;
+  line-height: 1em;
+  margin-bottom: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+/* line 31, ../scss/_global.scss */
+section:first-of-type {
+  margin-top: 60px;
+}
+
+/* line 34, ../scss/_global.scss */
+section {
+  margin-top: 180px;
+}
+
+/* line 37, ../scss/_global.scss */
+h3 {
+  margin: 20px 0;
+  font-family: "ITC Caslon",Georgia,serif;
+  font-size: 20px;
+  line-height: 20px;
+  margin-bottom: 15px;
+}
+
+/* line 44, ../scss/_global.scss */
+.cursour, span {
+  color: #666;
+  font-family: "adobe-caslon-pro",serif;
+  font-size: 12px;
+  letter-spacing: normal;
+  font-style: italic;
+  text-transform: lowercase;
+  margin-right: 2px;
+}
+
+/* line 53, ../scss/_global.scss */
+.signiture, p {
+  color: #111;
+  font-family: Nobel,sans-serif;
+  font-size: 10px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+/* line 64, ../scss/_global.scss */
+p {
+  display: inline;
+}
+
+/* line 5, ../scss/_homepage.scss */
+#forPadding {
+  background: #F9F9F9;
+  padding: 20px 0;
+}
+
+/* line 9, ../scss/_homepage.scss */
+#divededArticle {
+  background: #F4F4F4;
+}
+/* line 11, ../scss/_homepage.scss */
+#divededArticle .articlePhoto {
+  height: 350px;
+  width: 100%;
+  background: url("../img/article.jpeg") no-repeat 100%;
+  background-size: cover;
+}
+/* line 18, ../scss/_homepage.scss */
+#divededArticle .articleText {
+  background: white;
+  padding: 100px 50px;
+}
+/* line 21, ../scss/_homepage.scss */
+#divededArticle .articleText p {
+  display: block;
+}
+/* line 25, ../scss/_homepage.scss */
+#divededArticle .article {
+  margin: 70px 0;
+}
+
+/* line 31, ../scss/_homepage.scss */
+.fading {
+  opacity: 0.8;
+}
+
+/* line 35, ../scss/_homepage.scss */
+.stories a {
+  text-decoration: none;
+  color: black;
+}
+
+/* line 42, ../scss/_homepage.scss */
+.wrap-fade {
+  margin-bottom: 50px;
+}
+/* line 44, ../scss/_homepage.scss */
+.wrap-fade p:last-child {
+  border-left: 1px solid #e7e7e7;
+  padding: 8px 10px;
+  margin-left: 10px;
+}
+
+/* line 51, ../scss/_homepage.scss */
+#hero {
+  height: 230px;
+  width: 100%;
+  color: #fff;
+  background: url("../img/landscape.jpeg") no-repeat 100%;
+  background-size: cover;
+}
+
+/* line 58, ../scss/_homepage.scss */
+#hero2 {
+  height: 230px;
+  width: 100%;
+  color: #fff;
+  background: url("../img/landscape2.jpeg") no-repeat 100%;
+  background-size: cover;
+}
+
+/* line 65, ../scss/_homepage.scss */
+.feauturedArticle {
+  position: relative;
+}
+/* line 67, ../scss/_homepage.scss */
+.feauturedArticle .info-article {
+  position: absolute;
+  top: -35px;
+  padding: 20px 20px;
+  background: white;
+  margin: 0;
+  width: 100%;
+}
+/* line 74, ../scss/_homepage.scss */
+.feauturedArticle .info-article h1 {
+  margin-bottom: 20px;
+}
+/* line 77, ../scss/_homepage.scss */
+.feauturedArticle .info-article p:last-child {
+  border-left: 1px solid #e7e7e7;
+  padding: 8px 10px;
+  margin-left: 10px;
+}
+
+@media (max-width: 768px) {
+  /* line 3, ../scss/_mobile.scss */
+  #logoSm {
+    display: none!important;
+  }
+
+  /* line 6, ../scss/_mobile.scss */
+  .navbar-header {
+    float: none;
+  }
+
+  /* line 9, ../scss/_mobile.scss */
+  .navbar-left, .navbar-right {
+    float: none !important;
+  }
+
+  /* line 12, ../scss/_mobile.scss */
+  .navbar-toggle {
+    display: block;
+  }
+
+  /* line 15, ../scss/_mobile.scss */
+  .navbar-collapse {
+    border-top: 1px solid transparent;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  }
+
+  /* line 19, ../scss/_mobile.scss */
+  .navbar-fixed-top {
+    top: 0;
+    border-width: 0 0 1px;
+  }
+
+  /* line 23, ../scss/_mobile.scss */
+  .navbar-collapse.collapse {
+    display: none!important;
+  }
+
+  /* line 26, ../scss/_mobile.scss */
+  .navbar-nav {
+    float: none!important;
+    margin-top: 7.5px;
+  }
+
+  /* line 30, ../scss/_mobile.scss */
+  .navbar-nav > li {
+    float: none;
+  }
+
+  /* line 33, ../scss/_mobile.scss */
+  .navbar-nav > li > a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  /* line 37, ../scss/_mobile.scss */
+  .collapse.in {
+    display: block !important;
+  }
+}
+/*==========  Mobile First Method  ==========*/
+/* Custom, iPhone Retina */
+/* Extra Small Devices, Phones */
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+  /* line 60, ../scss/_mobile.scss */
+  #hero {
+    height: 500px;
+  }
+
+  /* line 63, ../scss/_mobile.scss */
+  #hero2 {
+    height: 500px;
+  }
+
+  /* line 67, ../scss/_mobile.scss */
+  .feauturedArticle .info-article {
+    position: absolute;
+    top: -90px;
+    padding: 40px;
+  }
+}
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {
+  /* line 78, ../scss/_mobile.scss */
+  .dotted {
+    border-bottom: 1px dotted #8c8b8b;
+    padding-top: 20px;
+  }
+
+  /* line 82, ../scss/_mobile.scss */
+  #hero {
+    height: 800px;
+  }
+
+  /* line 85, ../scss/_mobile.scss */
+  #hero2 {
+    height: 800px;
+  }
+
+  /* line 88, ../scss/_mobile.scss */
+  h1 {
+    font-size: 35px;
+  }
+}
+/* Large Devices, Wide Screens */
