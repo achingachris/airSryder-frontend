@@ -59,6 +59,15 @@
   z-index: -1;
   top: 40px;
 }
+
+.top-header .info {
+  justify-content: center;
+  align-items: center;
+  justify-self: center;
+  font-size: 40px;
+  line-height: 5px;
+}
+
 /* line 51, ../scss/_header_footer.scss */
 .navbar-header .subscribe .info p {
   font-family: "adobe-caslon-pro",serif;
