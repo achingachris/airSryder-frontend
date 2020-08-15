@@ -1,109 +1,100 @@
-.navbar-default {
-  background: none;
-
-  .navbar-collapse {
-    border-top: 1px solid #e7e7e7;
-    box-shadow: 0px 2px 5px 0px rgba(102, 102, 102, 0.06);
-    background: white;
-
-    a {
-      line-height: 60px;
-      color: #111 !important;
-      // font-family: Nobel,sans-serif;
-      font-size: 12px;
-      font-weight: 700;
-      letter-spacing: 1px;
-      padding: 0 15px;
-      text-transform: uppercase;
-
-      &:hover {
-        color: #c74375 !important;
-      }
-
-    }
-
-    .follow {
-      color: #666 !important;
-      font-family: "adobe-caslon-pro", serif;
-      font-size: 14px;
-      letter-spacing: normal;
-      font-style: italic;
-      text-transform: capitalize;
-      padding-right: 30px;
-      -webkit-box-sizing: border-box;
-      box-sizing: border-box;
-      height: 60px;
-      padding-top: 2px;
-      font-weight: 400;
-    }
-
-    #search {
-      border-left: 1px solid #e7e7e7;
-    }
-
-  }
-
-}
-
-.navbar-header {
-  padding: 30px 0 20px 0;
-
-  #cover {
-    width: 30%;
-    float: left;
-    margin-right: 20px;
-  }
-
-  .subscribe {
-    position: absolute;
-    z-index: -1;
-    top: 40px;
-
-    .info {
-
-      p {
-        font-family: "adobe-caslon-pro", serif;
-        font-size: 12px;
-        line-height: 5px;
-        letter-spacing: normal;
-        color: #666;
-        white-space: pre-line;
-        display: block;
-        text-transform: none;
-      } 
-
-      a {
-        font-family: Nobel, sans-serif;
-        font-size: 10px;
-        line-height: 10px;
-        font-size: 10px;
-        padding: 4px;
-        margin-top: 10px;
-        letter-spacing: 1px;
-        text-transform: uppercase;
-        border: 1px solid #c74375;
-        color: #c74375;
-
-        &:hover {
-          background: #c74375;
-          color: white;
-        }
-      }
-    }
-  }
-}
-
-.sticky {
+header {
+  width: 100%;
+  height: 300px;
+  background-color: #FF00FF;
+  text-align: center;
+  position: relative;
   position: fixed;
   top: 0;
+  overflow: hidden;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
 }
-#navbar {
-  z-index: 1111;
+
+header h1 {
+  font-size: 42px;
+  color: #000000;
+  line-height: 230px;
+  text-transform: uppercase;
+  font-weight: 100;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+header nav {
+  position: absolute;
+  bottom: 0;
+  height: 60px;
+  line-height: 60px;
   width: 100%;
+  background-color: rgba(0, 0, 0, 0.1);
 }
-#logoSm {
-  display: none;
+
+header nav a {
+  color: #fff;
+  display: inline-block;
+  padding: 10px 15px;
+  line-height: 1;
+  text-decoration: none;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
 }
-#vogue-logo {
-  padding: 30px 0 20px;
+
+header nav a:hover {
+  -moz-box-shadow: 0 0 0 1px #fff;
+  -webkit-box-shadow: 0 0 0 1px #fff;
+  box-shadow: 0 0 0 1px #fff;
+}
+
+h2 {
+  font-size: 34px;
+  text-transform: uppercase;
+  font-weight: 100;
+  line-height: 2;
+  color: #FF00FF;
+}
+
+p {
+  margin-bottom: 2rem;
+  line-height: 2;
+  color: #7f8c8d;
+}
+
+.wrapper {
+  width: 800px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+section {
+  padding: 20px;
+  margin-bottom: 40px;
+  background-color: #fff;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2);
+}
+
+body.sticky-header {
+  padding-top: 100px;
+}
+
+body.sticky-header header {
+  height: 60px;
+  background-color: #FF00FF;
+}
+
+body.sticky-header header h1 {
+  -moz-transform: scale(0, 0);
+  -ms-transform: scale(0, 0);
+  -webkit-transform: scale(0, 0);
+  transform: scale(0, 0);
 }
