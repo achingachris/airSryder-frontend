@@ -80,12 +80,12 @@
   margin-top: 10px;
   letter-spacing: 1px;
   text-transform: uppercase;
-  border: 1px solid #c00000;
-  color: #c00000;
+  border: 1px solid #c74375;
+  color: #c74375;
 }
 
 .navbar-header .subscribe .info a:hover {
-  background: #c00000;
+  background: #c74375;
   color: white;
 }
 
