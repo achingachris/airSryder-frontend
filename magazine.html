@@ -4,6 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+  <link rel="stylesheet" href="css/styles.css" />
   <link
     rel="stylesheet"
     href="https://fonts.googleapis.com/css?family=Oswald"
@@ -30,36 +31,58 @@
     }
   </style>
   <body class="w3-light-grey">
-    <!-- Navigation bar with social media icons -->
-    <div class="w3-bar w3-black w3-hide-small">
-      <a href="#" class="w3-bar-item w3-button"
-        ><i class="fa fa-facebook-official"></i
-      ></a>
-      <a href="#" class="w3-bar-item w3-button"
-        ><i class="fa fa-instagram"></i
-      ></a>
-      <a href="#" class="w3-bar-item w3-button"
-        ><i class="fa fa-snapchat"></i
-      ></a>
-      <a href="#" class="w3-bar-item w3-button"><i class="fa fa-flickr"></i></a>
-      <a href="#" class="w3-bar-item w3-button"
-        ><i class="fa fa-twitter"></i
-      ></a>
-      <a href="#" class="w3-bar-item w3-button"
-        ><i class="fa fa-linkedin"></i
-      ></a>
-      <a href="#" class="w3-bar-item w3-button w3-right"
-        ><i class="fa fa-search"></i
-      ></a>
-    </div>
+
+    <!-- nav bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="index.html"
+          >Coast Woman</a
+        >
+        <button
+          class="navbar-toggler navbar-toggler-right"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarResponsive"
+          aria-controls="navbarResponsive"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          Menu
+          <i class="fas fa-bars ml-1"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav text-uppercase ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="magazine.html"
+                >Magazines</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#portfolio">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#about">Stories</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#team">Categories</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="pricing.html"
+                >Subscription</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
     <!-- w3-content defines a container for fixed size centered content, 
-and is wrapped around the whole page content, except for the footer in this example -->
+    and is wrapped around the whole page content, except for the footer in this example -->
     <div class="w3-content" style="max-width: 1600px;">
       <!-- Header -->
-      <header class="w3-container w3-center w3-padding-48 w3-white">
-        <h1 class="w3-xxxlarge"><b>JANE BLOGLIFE</b></h1>
-        <h6>Welcome to the blog of <span class="w3-tag">Jane's world</span></h6>
+      <header class="w3-container w3-center w3-padding-48 w3-white mt-5">
+        <h1 class="w3-xxxlarge"><b>MAGAZINE ISSUE JAN-MAY</b></h1>
+        <h6>The Latest issue of<span class="w3-tag">Coast Woman magazine</span></h6>
       </header>
 
       <!-- Image header -->
@@ -67,21 +90,21 @@ and is wrapped around the whole page content, except for the footer in this exam
         <img
           class="w3-image"
           src="https://www.w3schools.com//w3images/jane.jpg"
-          alt="Fashion Blog"
+          alt="Fashion ARTICLE"
           width="1600"
           height="1060"
         />
         <div class="w3-display-left w3-padding-large">
-          <h1 class="w3-text-white">Jane's</h1>
+          <h1 class="w3-text-white">Power</h1>
           <h1 class="w3-jumbo w3-text-white w3-hide-small">
-            <b>FASHION BLOG</b>
+            <b>RUNS THE CITY</b>
           </h1>
           <h6>
             <button
               class="w3-button w3-white w3-padding-large w3-large w3-opacity w3-hover-opacity-off"
               onclick="document.getElementById('subscribe').style.display='block'"
             >
-              SUBSCRIBE
+              <a href="signup.html">SUBSCRIBE</a>
             </button>
           </h6>
         </div>
@@ -89,9 +112,9 @@ and is wrapped around the whole page content, except for the footer in this exam
 
       <!-- Grid -->
       <div class="w3-row w3-padding w3-border">
-        <!-- Blog entries -->
+        <!-- ARTICLE entries -->
         <div class="w3-col l8 s12">
-          <!-- Blog entry -->
+          <!-- ARTICLE entry -->
           <div class="w3-container w3-white w3-margin w3-padding-large">
             <div class="w3-center">
               <h3>TITLE HEADING</h3>
@@ -109,7 +132,7 @@ and is wrapped around the whole page content, except for the footer in this exam
               />
               <p>
                 <strong>More Hats!</strong> I am crazy about hats these days.
-                Some text about this blog entry. Fashion fashion and mauris
+                Some text about this ARTICLE entry. Fashion fashion and mauris
                 neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed
                 mattis nunc id lorem euismod placerat. Vivamus porttitor magna
                 enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi
@@ -148,7 +171,10 @@ and is wrapped around the whole page content, except for the footer in this exam
               >
                 <hr />
                 <div class="w3-col l2 m3">
-                  <img src="https://www.w3schools.com/w3images/avatar_smoke.jpg" style="width: 90px;" />
+                  <img
+                    src="https://www.w3schools.com/w3images/avatar_smoke.jpg"
+                    style="width: 90px;"
+                  />
                 </div>
                 <div class="w3-col l10 m9">
                   <h4>
@@ -157,14 +183,14 @@ and is wrapped around the whole page content, except for the footer in this exam
                       >May 3, 2015, 6:32 PM</span
                     >
                   </h4>
-                  <p>Great blog post! Following</p>
+                  <p>Great ARTICLE post! Following</p>
                 </div>
               </div>
             </div>
           </div>
           <hr />
 
-          <!-- Blog entry -->
+          <!-- ARTICLE entry -->
           <div class="w3-container w3-white w3-margin w3-padding-large">
             <div class="w3-center">
               <h3>TITLE HEADING</h3>
@@ -185,7 +211,7 @@ and is wrapped around the whole page content, except for the footer in this exam
                 <strong>Hats!</strong> The trend this summer is hats for men!
               </p>
               <p>
-                Some text about this blog entry. Fashion fashion and mauris
+                Some text about this ARTICLE entry. Fashion fashion and mauris
                 neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed
                 mattis nunc id lorem euismod placerat. Vivamus porttitor magna
                 enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi
@@ -216,7 +242,10 @@ and is wrapped around the whole page content, except for the footer in this exam
                 <div class="w3-row">
                   <hr />
                   <div class="w3-col l2 m3">
-                    <img src="https://www.w3schools.com/w3images/girl_train.jpg" style="width: 90px;" />
+                    <img
+                      src="https://www.w3schools.com/w3images/girl_train.jpg"
+                      style="width: 90px;"
+                    />
                   </div>
                   <div class="w3-col l10 m9">
                     <h4>
@@ -226,7 +255,7 @@ and is wrapped around the whole page content, except for the footer in this exam
                       >
                     </h4>
                     <p>
-                      Love your blog page! Simply the best! Lorem ipsum dolor
+                      Love your ARTICLE page! Simply the best! Lorem ipsum dolor
                       sit amet, consectetur adipiscing elit, sed do eiusmod
                       tempor incididunt ut labore et dolore magna aliqua.
                     </p>
@@ -235,7 +264,10 @@ and is wrapped around the whole page content, except for the footer in this exam
                 </div>
                 <div class="w3-row w3-margin-bottom">
                   <div class="w3-col l2 m3">
-                    <img src="https://www.w3schools.com/w3images/girl.jpg" style="width: 90px;" />
+                    <img
+                      src="https://www.w3schools.com/w3images/girl.jpg"
+                      style="width: 90px;"
+                    />
                   </div>
                   <div class="w3-col l10 m9">
                     <h4>
@@ -251,7 +283,7 @@ and is wrapped around the whole page content, except for the footer in this exam
             </div>
           </div>
 
-          <!-- Blog entry -->
+          <!-- ARTICLE entry -->
           <div class="w3-container w3-white w3-margin w3-padding-large">
             <div class="w3-center">
               <h3>TITLE HEADING</h3>
@@ -272,7 +304,7 @@ and is wrapped around the whole page content, except for the footer in this exam
                 weekend is gonna be legendary!
               </p>
               <p>
-                Some text about this blog entry. Fashion fashion and mauris
+                Some text about this ARTICLE entry. Fashion fashion and mauris
                 neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed
                 mattis nunc id lorem euismod placerat. Vivamus porttitor magna
                 enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi
@@ -320,7 +352,10 @@ and is wrapped around the whole page content, except for the footer in this exam
                 </div>
                 <div class="w3-row w3-margin-bottom">
                   <div class="w3-col l2 m3">
-                    <img src="https://www.w3schools.com/w3images/boy.jpg" style="width: 90px;" />
+                    <img
+                      src="https://www.w3schools.com/w3images/boy.jpg"
+                      style="width: 90px;"
+                    />
                   </div>
                   <div class="w3-col l10 m9">
                     <h4>
@@ -338,7 +373,10 @@ and is wrapped around the whole page content, except for the footer in this exam
                 </div>
                 <div class="w3-row w3-margin-bottom">
                   <div class="w3-col l2 m3">
-                    <img src="https://www.w3schools.com/w3images/girl_hood.jpg" style="width: 90px;" />
+                    <img
+                      src="https://www.w3schools.com/w3images/girl_hood.jpg"
+                      style="width: 90px;"
+                    />
                   </div>
                   <div class="w3-col l10 m9">
                     <h4>
@@ -354,7 +392,7 @@ and is wrapped around the whole page content, except for the footer in this exam
             </div>
           </div>
 
-          <!-- END BLOG ENTRIES -->
+          <!-- END ARTICLE ENTRIES -->
         </div>
 
         <!-- About/Information menu -->
@@ -372,7 +410,7 @@ and is wrapped around the whole page content, except for the footer in this exam
               <p>
                 Just me, myself and I, exploring the universe of uknownment. I
                 have a heart of love and a interest of lorem ipsum and mauris
-                neque quam blog. I want to share my world with you.
+                neque quam ARTICLE. I want to share my world with you.
               </p>
             </div>
           </div>
@@ -565,7 +603,7 @@ and is wrapped around the whole page content, except for the footer in this exam
             </div>
             <div class="w3-container w3-white">
               <p>
-                Enter your e-mail below and get notified on the latest blog
+                Enter your e-mail below and get notified on the latest ARTICLE
                 posts.
               </p>
               <p>
@@ -607,7 +645,7 @@ and is wrapped around the whole page content, except for the footer in this exam
           ></i>
           <h2 class="w3-wide">SUBSCRIBE</h2>
           <p>
-            Join my mailing list to receive updates on the latest blog posts and
+            Join my mailing list to receive updates on the latest ARTICLE posts and
             other things.
           </p>
           <p>
@@ -635,14 +673,22 @@ and is wrapped around the whole page content, except for the footer in this exam
       >
       <p>
         Powered by
-        <a href="https://www.w3schools.com/w3css/default.asp" target="_blank"
-          >w3.css</a
-        >
+        <a href="#" target="_blank"
+          >Coast Woman</a>
       </p>
     </footer>
 
+    <!-- Bootstrap core JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+    <!-- Third party plugin JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <!-- Third party plugin JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <script src="js/scripts.js"></script>
+
     <script>
-      // Toggle between hiding and showing blog replies/comments
+      // Toggle between hiding and showing ARTICLE replies/comments
       document.getElementById("myBtn").click();
       function myFunction(id) {
         var x = document.getElementById(id);
