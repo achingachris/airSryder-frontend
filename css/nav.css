@@ -1,5 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Euphoria+Script&display=swap');
 
+.carousel-item {
+  height: 100vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 nav .navbar .container {
   font-family: 'Euphoria Script', cursive;
 }
