@@ -4395,7 +4395,8 @@ input[type=button].btn-block {
 }
 
 .card-text {
-  font-family: 'Libre Caslon Display', serif;
+  /* font-family: 'Libre Caslon Display', serif; */
+  font-family: 'Raleway', sans-serif;
 }
 
 .card-text:last-child {
